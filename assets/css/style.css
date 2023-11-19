@@ -1,0 +1,543 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Ysabeau+Infant:wght@300&display=swap');
+/* End */
+
+
+body{
+  overflow-x: hidden;
+}
+
+/* Scroll Bar CSS */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2C3E50;
+  border-radius: 30px;
+}
+/* end */
+
+
+/* body particles css */
+
+
+
+
+body{ margin:0;
+font:normal 75% Arial, Helvetica, sans-serif; }
+canvas{ display: block;
+vertical-align: bottom; 
+
+}
+
+#particles-js{ position:absolute; width: 100%; height: 100%; 
+background: linear-gradient(45deg,  #2C3E50,black) !important; 
+background-image: url(""); 
+background-repeat: no-repeat; 
+background-size: cover; 
+background-position: 50% 50%; 
+}
+
+.count-particles{ background: #000022; position: absolute; top: 8;
+left: 0; 
+width: 80px; 
+color: #13E8E9; 
+font-size: .8em; 
+text-align: left; 
+text-indent: 4px; 
+line-height: 14px; 
+padding-bottom: 2px; 
+font-family: Helvetica, Arial, sans-serif; 
+font-weight: bold; 
+}
+
+.js-count-particles{ font-size: 1.1em; } 
+#stats, .count-particles{ -webkit-user-select: none; 
+margin-top: 5px; margin-left: 5px; } 
+#stats{ border-radius: 3px 3px 0 0; 
+overflow: hidden; 
+}
+
+ .count-particles{ 
+  border-radius: 0 0 3px 3px; 
+};
+
+
+
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+
+  }
+  /* End */
+
+
+  /* Navbar */
+  .navbar {
+    background: transparent;
+    transition: background 0.5s;
+  }
+  
+  .navbar.scrolled {
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+
+  .navbar-brand{
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .nav-link{
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 18px;
+    color:#eee;
+    position: relative;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
+  .nav-link:hover{
+    color: #eee;
+  }
+
+  .nav-link:focus{
+    color: #eee;
+  }
+
+  
+  .navbar-nav a:after {
+    content: '';
+    position: absolute;
+    bottom: -2px; 
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background: #eee; 
+    transform: scaleX(0); 
+    transform-origin: 0 50%;
+    transition: transform 0.3s;
+  }
+  
+  .navbar-nav a:hover:after {
+    transform: scaleX(1); 
+  }
+
+  .btn-css-nav{
+    background-color:transparent;
+     width: 120px;
+
+     border-radius: 30px;
+     border: 2px solid #fff;
+     color: #eee;
+     font-family: 'Cabin', sans-serif;
+}
+
+.btn-css-nav:hover{
+    background-color: #eee;
+    transition: 1s;
+    border: 2px solid black;
+}
+
+
+
+  /* End */
+  
+
+  /* Banner Css */
+
+  .main{
+    position: relative;
+  }
+.Title-css{
+    font-family: 'Cabin', sans-serif;
+text-align: center;
+margin-top: 8rem;
+color: #eee;
+}
+
+.moto-css{
+    color: #eee;
+    text-align: center;
+    
+    font-size: 14px;
+    margin-top: 2rem;
+    font-weight:400;
+}
+
+.text-light {
+    position: relative;
+    margin-top: 2rem;
+    font-size: 22px; 
+  text-align: center;
+    color: transparent;
+    font-family: 'Cabin', sans-serif;
+  }
+
+
+.banner-txt-2{
+    color: #eee;
+    font-size: 25px;
+    font-family: 'Cabin', sans-serif;
+    
+}
+
+.btn-css{
+    background-color:transparent;
+     width: 160px;
+     margin-top: 1rem;
+     border-radius: 0px;
+     border: 2px solid #fff;
+     color: #eee;
+     font-family: 'Cabin', sans-serif;
+}
+
+.btn-css:hover{
+    background-color: #eee;
+    transition: 1s;
+    border: 2px solid black;
+}
+
+ /* End/* 
+
+
+ /* Services */
+
+
+ .Services-heading{
+    margin-top: 14rem;
+    text-align: center;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+ }
+
+ .Services-tagline{
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    font-size: 30px;  
+ }
+
+
+
+.card-img{
+    align-items: center;
+}
+
+.card-title{
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: bold;
+}
+
+.card-des{
+     font-size: 16px;
+     font-family: 'Cabin', sans-serif;
+}
+
+.feature-css{
+    font-size: 14px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.slide-text{
+  font-size: 15px;
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.card-css{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.owl-prev{
+  display: none;
+}
+
+.owl-next{
+  display: none;
+}
+ /* End */
+
+
+
+ /* Banner css */
+
+.banner-sec-1{
+  background-color: #2C3E50;
+}
+ .banner-sec-2{
+  background-color: black;
+ }
+
+ .banner-sec-2 img{
+margin-top: 8rem;
+margin-bottom: 8rem;
+ }
+
+ .banner-heading{
+  font-weight: bolder;
+  margin-top: 14rem;
+ 
+  font-family: 'Ysabeau Infant', sans-serif;
+  color: #eee;
+ }
+
+ .banner-text{
+  font-family: 'Cabin', sans-serif;
+  color: #eee;
+  font-size: 30px;
+ }
+ /* End */
+
+
+ /* Portfolio  Css */
+
+ .tab {
+  overflow: hidden;
+ 
+
+}
+
+.tab button {
+
+  background: linear-gradient(45deg,  #2C3E50,black) !important;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: 0.3s;
+  border-radius: 30px;
+  font-size: 16px;
+  width: 160px;
+  white-space: nowrap;
+  color: white;
+  font-weight: bold;
+  font-family: 'Cabin', sans-serif;
+  
+}
+
+
+.tab button:hover {
+  background: linear-gradient(45deg,  black,#2C3E50) !important;
+  transition: 0.5;
+  
+}
+
+
+
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  
+  border-top: none;
+}
+
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  transition: filter 0.3s;
+  border-radius: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 11;
+  width: 94%;
+  height: 100%;
+  background-color: rgba(88, 84, 84, 0.342);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.btn-img-css {
+   
+  color: #eee; 
+  
+  padding: 10px 20px;
+  border: 2px solid #eee;
+  cursor: pointer;
+  display: none;
+  margin-bottom: 70px; 
+  width: 160px;
+  border-radius: 0px;
+  font-weight: bold;
+  font-family: 'Cabin', sans-serif;
+}
+
+.btn:hover{
+  background-color: #eee;
+  transition: 1s;
+}
+
+.image-container:hover .img-fluid {
+  filter: brightness(1); 
+}
+
+.image-container:hover .overlay {
+  opacity: 1; 
+}
+
+.image-container:hover .btn {
+  display: block; 
+}
+
+
+/* Portfolio End */
+
+
+ /* Testimonial  */
+
+
+ .Testimonial-heading{
+
+  text-align: center;
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.Testimonial-tagline{
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  font-size: 30px;  
+}
+
+ /* End */
+
+ /* Contact us */
+
+ .Contact-heading{
+
+  text-align: center;
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.Contact-tagline{
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  font-size: 30px;  
+}
+
+
+.contact-heading{
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-weight: bold;
+}
+
+.control-style{
+  
+  border-radius: 0px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  color: black;
+  font-family: 'Cabin', sans-serif;
+  border-bottom: 2px solid black;
+}
+
+.control-style:focus{
+border-bottom: 2px solid #2C3E50;
+  box-shadow: none;
+  outline: none;
+}
+
+.btn-submit{
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 0px;
+    width: 140px;
+    font-weight: bold;
+  }
+
+  .btn-submit:hover{
+  background-color: #2C3E50;
+    color: white;
+    font-weight: bold;
+    transition: 1s;
+  }
+  
+ /* End */
+
+
+ /* About Css */
+
+ .About-heading{
+
+  text-align: center;
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.About-tagline{
+  font-family: 'Cabin', sans-serif;
+  text-align: center;
+  font-size: 30px;  
+}
+
+.about-head-1{
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-weight: bolder;
+}
+
+.about-text-1{
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+ /* End */
+
+
+
+/* media querries */
+
+/* For screens smaller than or equal to 768px (commonly used for small screens) */
+@media screen and (max-width: 768px) {
+  .querry-css-last{
+  margin-top: 2rem;
+}
+
+.contact-img-querry{
+  width: 500px !important;
+}
+
+.banner-text{
+  margin-bottom: 14rem;
+}
+
+}
+
+
+
+/* end */
